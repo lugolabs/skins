@@ -1,0 +1,161 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: Quicksand, verdana, arial, helvetica, sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+  margin: 0;
+  padding: 1em 3em;
+  line-height: 1.4;
+}
+
+a {
+  color: #08c;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #08c;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a[data-method="delete"] {
+  color: #F44141;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: .5em;
+}
+
+/* form */
+
+.field, .actions {
+  margin-bottom: .8em;
+}
+
+
+input, select, textarea {
+  font-family: Quicksand, verdana, arial, helvetica, sans-serif;
+  font-size: 1em;
+  outline: 0;
+  margin: 0;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  border: 1px solid #ccc;
+  padding: .3em .5em;
+  width: 20em;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover,
+textarea:hover {
+  border-color: #08c;
+}
+
+input[type="submit"],
+button {
+  padding: .5em 1em;
+  display: inline-block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 2px;
+  border: 1px solid #11B8DF;
+  border-bottom: 3px solid #0D96B6;
+  background: #53C0F9;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  line-height: 1.43;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+input[type="submit"]:active,
+button:active {
+  border-bottom-color: #41B5F0;
+}
+
+textarea {
+  min-height: 5em;
+}
+
+select {
+  padding: 0 2em;
+  height: 2em;
+  border: 1px solid #ccc;
+  background: white;
+  display: inline-block;
+  font-size: 1em;
+}
+
+/* form errors */
+
+.field_with_errors {
+  display: inline-block;
+  color: #F72525;
+}
+
+.field_with_errors input[type="text"],
+.field_with_errors input[type="password"] {
+  border-color: #FA7A7A;
+}
+
+/* table */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th, td {
+  text-align: left;
+  padding: .5em 1em;
+  border-bottom: 1px solid #eee;
+}
+
+th:first-child, td:first-child {
+  padding-left: 0;
+}
+
+th:last-child, td:last-child {
+  padding-right: 0;
+}
+
+th {
+  border-bottom-width: 3px;
+}
+
+/* errors */
+
+#notice {
+  color: green;
+}
+
+#error_explanation {
+  margin-bottom: 1em;
+}
+
+#error_explanation h2 {
+    color: #FA7A7A;
+  }
+#error_explanation ul {
+  padding-left: 1.3em;
+}
+
+#error_explanation li {
+  font-size: .9em;
+  list-style: square;
+  font-style: italic;
+}
