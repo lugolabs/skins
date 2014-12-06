@@ -7,11 +7,11 @@ require "skins/version"
 Gem::Specification.new do |s|
   s.name        = "skins"
   s.version     = Skins::VERSION
-  s.authors     = ["Arti Sinani"]
-  s.email       = ["artisinani@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Skins."
-  s.description = "TODO: Description of Skins."
+  s.authors     = ["Artan Sinani"]
+  s.email       = ["artan@lugolabs.com"]
+  s.homepage    = "http://lugolabs.com/skins"
+  s.summary     = "Skins adds a thin layer of style to Rails scaffolds."
+  s.description = "Skins change styles of HTML elements such as body, links, form elements, headers, therefore they are best suited for quick prototyping with scaffolds."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
@@ -20,4 +20,5 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 4.2.0.beta1"
 
   s.add_development_dependency "sqlite3"
+  s.add_development_dependency "jquery-rails"
 end

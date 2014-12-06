@@ -140,7 +140,8 @@ th {
 /* errors */
 
 #notice {
-  color: green;
+  color: #368913;
+  font-weight: bold;
 }
 
 #error_explanation {
