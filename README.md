@@ -1,9 +1,9 @@
 Skins
 =====
 
-Adds a thin layer of style to Rails scaffolds.
-
 ![Skins](http://lugolabs.com/static/skins_listing_books.png)
+
+Adds a thin layer of style to Rails scaffolds.
 
 ### Usage
 
