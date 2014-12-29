@@ -3,8 +3,9 @@ Skins
 
 Adds a thin layer of style to Rails scaffolds.
 
-Usage
------
+![Skins](http://lugolabs.com/static/skins_listing_books.png)
+
+### Usage
 
 Add the gem to your Gemfile:
 
@@ -39,6 +40,8 @@ Add the CSS class to the `body` of your layout file:
 ```
 
 Now you are ready to go.
+
+![Skins](http://lugolabs.com/static/skins_new_record.png)
 
 
 Copyright Lugo Labs. Uses [MIT-LICENSE](http://opensource.org/licenses/MIT).
