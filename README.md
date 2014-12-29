@@ -43,5 +43,6 @@ Now you are ready to go.
 
 ![Skins](http://lugolabs.com/static/skins_new_record.png)
 
+A screenshot of the skinned *New Record* page.
 
 Copyright Lugo Labs. Uses [MIT-LICENSE](http://opensource.org/licenses/MIT).
