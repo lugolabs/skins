@@ -45,4 +45,7 @@ Now you are ready to go.
 
 A screenshot of the skinned *New Record* page.
 
+
+---------
+
 Copyright Lugo Labs. Uses [MIT-LICENSE](http://opensource.org/licenses/MIT).
