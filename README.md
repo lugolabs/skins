@@ -12,7 +12,7 @@ Add the gem to your Gemfile:
 gem 'skins'
 ```
 
-You can just also just copy the [stylesheet](https://raw.githubusercontent.com/lugolabs/skins/master/vendor/assets/stylesheets/skins-air.css) to the `/vendor/assets/stylesheets` folder of your app.
+You can also just copy the [stylesheet](https://raw.githubusercontent.com/lugolabs/skins/master/vendor/assets/stylesheets/skins-air.css) to the `/vendor/assets/stylesheets` folder of your app.
 
 Require the skin file in your `application.css`
 

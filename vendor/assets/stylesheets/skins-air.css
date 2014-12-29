@@ -122,7 +122,8 @@
 .skins-air th,
 .skins-air td {
   text-align: left;
-  padding: .5em 1em;
+  vertical-align: top;
+  padding: .5em .8em;
   border-bottom: 1px solid #eee;
 }
 
