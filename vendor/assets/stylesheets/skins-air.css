@@ -1,4 +1,4 @@
-body {
+.skins-air {
   background-color: #fff;
   color: #333;
   font-family: Quicksand, verdana, arial, helvetica, sans-serif;
@@ -9,58 +9,58 @@ body {
   line-height: 1.4;
 }
 
-a {
+.skins-air a {
   color: #08c;
   text-decoration: none;
 }
 
-a:visited {
+.skins-air a:visited {
   color: #08c;
 }
 
-a:hover {
+.skins-air a:hover {
   text-decoration: underline;
 }
 
-a[data-method="delete"] {
+.skins-air a[data-method="delete"] {
   color: #F44141;
 }
 
-h1 {
+.skins-air h1 {
   font-size: 2em;
   margin-bottom: .5em;
 }
 
 /* form */
 
-.field, .actions {
+.skins-air .field, .skins-air .actions {
   margin-bottom: .8em;
 }
 
 
-input, select, textarea {
+.skins-air input, .skins-air select, .skins-air textarea {
   font-family: Quicksand, verdana, arial, helvetica, sans-serif;
   font-size: 1em;
   outline: 0;
   margin: 0;
 }
 
-input[type="text"],
-input[type="password"],
-textarea {
+.skins-air input[type="text"],
+.skins-air input[type="password"],
+.skins-air textarea {
   border: 1px solid #ccc;
   padding: .3em .5em;
   width: 20em;
 }
 
-input[type="text"]:hover,
-input[type="password"]:hover,
-textarea:hover {
+.skins-air input[type="text"]:hover,
+.skins-air input[type="password"]:hover,
+.skins-air textarea:hover {
   border-color: #08c;
 }
 
-input[type="submit"],
-button {
+.skins-air input[type="submit"],
+.skins-air button {
   padding: .5em 1em;
   display: inline-block;
   margin-top: 1em;
@@ -82,16 +82,16 @@ button {
   cursor: pointer;
 }
 
-input[type="submit"]:active,
-button:active {
+.skins-air input[type="submit"]:active,
+.skins-air button:active {
   border-bottom-color: #41B5F0;
 }
 
-textarea {
+.skins-air textarea {
   min-height: 5em;
 }
 
-select {
+.skins-air select {
   padding: 0 2em;
   height: 2em;
   border: 1px solid #ccc;
@@ -102,60 +102,64 @@ select {
 
 /* form errors */
 
-.field_with_errors {
+.skins-air .field_with_errors {
   display: inline-block;
   color: #F72525;
 }
 
-.field_with_errors input[type="text"],
-.field_with_errors input[type="password"] {
+.skins-air .field_with_errors input[type="text"],
+.skins-air .field_with_errors input[type="password"] {
   border-color: #FA7A7A;
 }
 
 /* table */
 
-table {
+.skins-air table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-th, td {
+.skins-air th,
+.skins-air td {
   text-align: left;
   padding: .5em 1em;
   border-bottom: 1px solid #eee;
 }
 
-th:first-child, td:first-child {
+.skins-air th:first-child,
+.skins-air td:first-child {
   padding-left: 0;
 }
 
-th:last-child, td:last-child {
+.skins-air th:last-child,
+.skins-air td:last-child {
   padding-right: 0;
 }
 
-th {
+.skins-air th {
   border-bottom-width: 3px;
 }
 
 /* errors */
 
-#notice {
+.skins-air #notice {
   color: #368913;
   font-weight: bold;
 }
 
-#error_explanation {
+.skins-air #error_explanation {
   margin-bottom: 1em;
 }
 
-#error_explanation h2 {
-    color: #FA7A7A;
-  }
-#error_explanation ul {
+.skins-air #error_explanation h2 {
+  color: #FA7A7A;
+}
+
+.skins-air #error_explanation ul {
   padding-left: 1.3em;
 }
 
-#error_explanation li {
+.skins-air #error_explanation li {
   font-size: .9em;
   list-style: square;
   font-style: italic;

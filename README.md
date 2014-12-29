@@ -1,8 +1,10 @@
-= Skins
+Skins
+=====
 
 Adds a thin layer of style to Rails scaffolds.
 
-== Usage
+Usage
+-----
 
 Add the gem to your Gemfile:
 
@@ -30,10 +32,13 @@ or run the convenient generator if you installed the gem:
 bin/rails g skins:install
 ```
 
+Add the CSS class to the `body` of your layout file:
+
+```html
+<body class="skins-air">
+```
+
 Now you are ready to go.
 
-== Danger
-
-Beaware, the skins will change styles of HTML elements such as body, links, form elements, headers, therefore they are best suited for quick prototyping with scaffolds.
 
 Copyright Lugo Labs. Uses [MIT-LICENSE](http://opensource.org/licenses/MIT).
